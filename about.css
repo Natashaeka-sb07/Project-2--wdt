@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(images/gambar3.jpg);
+    background-size: cover; 
+}
+
+
+nav {
+    display: flex;
+    padding: 4% 8%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img {
+    width: 170px;
+}
+
+.nav-links {
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 30px;
+    position: relative;
+}
+
+.nav-links ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.nav-links ul li::after {
+    content: '';
+    width: 0%;
+    height: 1px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.7s;
+}
+
+.nav-links ul li:hover::after {
+    width: 100%;
+}
+
+.container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 20px auto;
+    max-width: 1000px;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    color: #031423;
+}
+
+h2 {
+    font-size: 32px;
+    margin: 10px 0;
+}
+
+h3 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+h4 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    color: #666;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.image-container {
+    text-align: center;
+}
+
+.image-container img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.video-container {
+    position: relative; 
+    margin-top: 20px; 
+}
+
+table {
+    width: 90%;
+    margin: auto; 
+    border-collapse: collapse;
+}
+
+th, td {
+    text-align: right;
+    padding: 25px;
+    border-style: solid;
+    border-width: medium;
+    background-color: #c6b67b;
+    border-color: white;
+}
+
+th {
+    background-color: #c6b67b;
+}
+
+td {
+    text-align: center;
+}
+
+th {
+    text-align: center;
+}
